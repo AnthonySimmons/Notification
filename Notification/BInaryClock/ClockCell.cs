@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BinaryClock
+namespace Notification
 {
 	public class ClockCell
 	{

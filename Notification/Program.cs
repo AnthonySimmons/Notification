@@ -15,7 +15,7 @@ namespace Notification
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Notifications());
+            Application.Run(new MainForm());
         }
     }
 }

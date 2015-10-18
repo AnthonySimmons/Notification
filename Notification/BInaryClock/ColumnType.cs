@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BinaryClock
+namespace Notification
 {
 	public enum ColumnName { TenHour, Hour, TenMinute, Minute, TenSecond, Second }
 

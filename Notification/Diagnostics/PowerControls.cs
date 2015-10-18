@@ -25,7 +25,7 @@ namespace Notification.Diagnostics
 
         public static void Sleep()
         {
-            Process.Start("shutdown", "/h");
+            Process.Start("Rundll32.exe", "powrprof.dll,SetSuspendState Sleep");
         }
 
     }
